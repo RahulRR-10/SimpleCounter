@@ -1,0 +1,25 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: rgb(235, 205, 168);
+}
+#counter{
+    display:block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#buttondiv{
+    text-align: center;
+}
+.bclass{
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.bclass:hover{
+    background-color: aqua;
+}
